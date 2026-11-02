@@ -1,0 +1,7 @@
+out/
+ghidra-projects/
+__pycache__/
+*.pyc
+firmware/*.bin
+Xly100s*.bin
+mydump*.bin
