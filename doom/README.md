@@ -4,6 +4,8 @@
 
 **Watch it run:** [Doom on the camera (YouTube)](https://www.youtube.com/watch?v=9zbToc-B2Ns)
 
+**Hear the music:** [the whole shareware soundtrack rendered by the camera's music synth (YouTube)](https://www.youtube.com/watch?v=5T6xndsaTi8)
+
 Doom (shareware episode 1) running on the camera's own hardware: Games button -> Doom, with sound effects, music, save games and the camera's
 buttons as controls, at roughly 26-32 fps on a ~120 MIPS OpenRISC with 2 MiB of RAM.
 

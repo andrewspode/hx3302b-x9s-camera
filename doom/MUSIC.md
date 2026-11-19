@@ -5,7 +5,7 @@ port has to produce PCM itself. These are the options we compared, with their es
 
 ## What we chose
 The port uses a small, simple MUS synthesiser (`hx_music.c`): cheap (about 2% of the CPU) and needing no extra files. The alternatives below would sound closer to the original but cost far more or need extra data;
-we recorded the numbers in case that matters later.
+we recorded the numbers in case that matters later. To hear how it sounds, see the [full shareware soundtrack rendered through `hx_music.c` (YouTube)](https://www.youtube.com/watch?v=5T6xndsaTi8).
 
 ## Summary of the options
 - **[disasm] The firmware MP3 decoder is reusable with a memory-backed input.** Its input context contains read and seek function pointers (`0x0000EF44`, flash `0xD6F44`), so FAT is not inherent to the decoder. The firmware's output path is the already-tested direct PCM engine, not the firmware audio task at `0x02013818`.
