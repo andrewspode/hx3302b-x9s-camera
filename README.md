@@ -7,6 +7,7 @@ given a C toolchain, and made to run Doom. This repository is *what we have*: th
 
 - **The accompanying article:** [Reverse Engineering a Children's Camera](https://spodesabode.com/articles/reverse-engineering-a-childrens-camera/)
 - **Watch it run:** [Doom on the camera (YouTube)](https://www.youtube.com/watch?v=9zbToc-B2Ns)
+- **Hear the music synth:** [the whole shareware soundtrack through `hx_music.c` (YouTube)](https://www.youtube.com/watch?v=5T6xndsaTi8)
 
 **AI-assisted:** this project was orchestrated by Andrew Spode, who opened the camera, extracted the firmware, designed the methods and benchmarks, ran every
 test on the hardware and directed the work. Claude Opus 5.5 and Kimi 3.1 did much of the heavy lifting: reading the disassembly, writing the tools and code,
